@@ -1,0 +1,12 @@
+* {
+  --grey: #8d8984;
+  --grey-ligther: '#D6CCC2';
+  --grey-lightest: '#E5DED8';
+  background-color: var(--grey-lightest);
+}
+
+.fab {
+  @apply absolute m-0 p-0;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
